@@ -1,4 +1,8 @@
 import { useState, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+
+import {addCart} from  '../../store/cart.js';
+
 
 function CartItem({ item }) {
   const [count, setCount] = useState(item.count);
