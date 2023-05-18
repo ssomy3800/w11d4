@@ -153,7 +153,7 @@ import { populateProduce } from './store/produce';
 if (process.env.NODE_ENV !== "production") {
   window.store = store;
   window.populateProduce = populateProduce;
-}
+}   
 ```
 
 Go to [http://localhost:3000] and use `store.dispatch` on the browser's dev
